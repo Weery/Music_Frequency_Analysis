@@ -1,0 +1,12 @@
+function output = create_samples(signal,sampleRate,sampleLengthTime)
+% CREATE_SAMPLES  Divivides an signal into samples.
+%   signal - Input signal
+%   sampleRate - Number of samples per time unit
+%   sampleLengthTime - Length of each sample in time units
+
+sampleLength=floor(sampleLengthTime*sampleRate); % The number of elements in the samples
+
+sampleLength=2^(nextpow2(sampleLength)); % Ma
+
+
+end
