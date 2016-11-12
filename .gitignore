@@ -1,0 +1,8 @@
+# git ignore
+
+# Music files
+*.mp3
+*.wav
+
+# Text files
+*.txt
